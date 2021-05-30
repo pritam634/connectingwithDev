@@ -1,0 +1,26 @@
+.flex{
+    display: flex;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.justify-between{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.column{
+    flex-direction: column;
+}
+.size-font{
+    font-size: 1.7rem;
+}
+
+.width-center{
+    width: 100%;
+}
