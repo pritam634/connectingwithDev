@@ -18,4 +18,19 @@ $(document).ready(function () {
     times.addEventListener('click', function () {
         mobileNav.classList.remove('open');
     });
+
+    let nav_button = document.querySelector(".nav-button");
+    nav_button.addEventListener("click", function () {
+        mobileNav.classList.remove('open');
+    });
+
+    let nav_button2 = document.querySelector(".nav-button2");
+    nav_button2.addEventListener("click", function () {
+        mobileNav.classList.remove('open');
+    });
+
+    let nav_button3 = document.querySelector(".nav-button3");
+    nav_button3.addEventListener("click", function () {
+        mobileNav.classList.remove('open');
+    });
 });
